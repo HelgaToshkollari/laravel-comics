@@ -4,26 +4,12 @@
 
 .jumbo{
     background-image: url("../img/jumbotron.jpg");
-    object-fit: cover;
+    background-size: cover;
     height: 400px;
-    background-repeat: no-repeat;
 }
 
-.my-comic{
-    
-    width: calc(100% / 6);
-    padding: 0 1rem;
-    
-}
-.my-card-img{
-    width: 100%;
-    
-    img{
-        width: 100%;
-        object-fit: cover;
-        display: block;
-        aspect-ratio: 1/1;
-    }
+.my-blue-bg{
+    background-color: rgb(63, 140, 255);
 }
 .my-banner-ul{
     display: flex;
@@ -31,9 +17,13 @@
     justify-content: center;
     color: white;
     margin: 0;
+ 
 
     li{
+        display: flex;
+        align-items: center;
         padding: 1.5rem ;
+
 
         img{
             width: 60px;
@@ -42,3 +32,24 @@
     }
 }
     
+
+.my-bg-cards {
+    background-color: #292929;
+}
+
+.card-container {
+    width: calc(100%/6);
+    padding: 10px;
+}
+
+.card-image {
+    aspect-ratio: 1/1;
+}
+
+.comic-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
