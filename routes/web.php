@@ -22,8 +22,5 @@ Route::get('/', function () {
 
 
 Route::get("/comics", function(){
-    $comicsList = config("tempComicsDb2");
-    return view("comics.comic", [
-        "comicsList" => $comicsList
-    ]);
+    return view("comics.comic",);
 });

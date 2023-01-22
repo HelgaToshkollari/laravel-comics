@@ -1,7 +1,7 @@
-<div class="my-bgc-footer-img">
+<div class="my-bgc-footer-img ">
     
 
-    <div class="footer-link-list">
+    <div class="footer-link-list container py-4">
         <div>
             <h3>DC COMICS</h3>
             <ul>
